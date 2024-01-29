@@ -15,14 +15,14 @@ class ResultScreen extends StatelessWidget {
           centerTitle: true,
         ),
         body: Container(
-          color: Colors.white, // Fond blanc
+          color: Colors.white, 
           padding: const EdgeInsets.all(30.0),
           child: Center(
             child: Text(
               text,
               style: TextStyle(
                 fontSize: 18.0,
-                color: Colors.black, // Couleur du texte
+                color: Colors.black, 
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -55,7 +55,7 @@ class ResultScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(width: 16.0), // Add some spacing between buttons
+            SizedBox(width: 16.0),
             Positioned(
               right: 80.0,
               bottom: 16.0,
